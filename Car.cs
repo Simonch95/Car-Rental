@@ -14,6 +14,7 @@ namespace CarRental
         public int _year { get; set; }
         public double _price { get; set; }
         public int _mileage { get; set; }
+		public char c;
         public string _equipment { get; set; }
         public Car(int id, string brand, string model, int year, double price, int mileage, string equipment)
         {
